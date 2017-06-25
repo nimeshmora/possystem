@@ -42,7 +42,7 @@ return array(
 	|
 	*/
 
-	'default' => 'mysql',
+	'default' => 'pgsql',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -81,7 +81,7 @@ return array(
 
 		'pgsql' => array(
 			'driver' => 'pgsql',
-    'host' => $host,
+    			'host' => $host,
     'port' => 5432,
     'database' => $database,
     'username' => $username,
